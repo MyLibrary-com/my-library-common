@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageId>MyLibrary.Commo</PackageId>
-    <Version>0.1</Version>
+    <PackageId>my-library-common</PackageId>
+    <Version>1.0.0</Version>
     <Authors>Wade Russell</Authors>
     <PackageDescription>This package contains the common objects used by the MyLibrary .NET Core Projects.</PackageDescription>
     <RepositoryUrl>https://github.com/mylibrary-com/my-library-common</RepositoryUrl>
