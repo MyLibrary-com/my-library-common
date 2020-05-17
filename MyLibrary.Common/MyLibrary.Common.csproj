@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageId>my-library-common</PackageId>
+    <PackageId>MyLibrary.Common</PackageId>
     <Version>1.0.0</Version>
     <Authors>Wade Russell</Authors>
     <PackageDescription>This package contains the common objects used by the MyLibrary .NET Core Projects.</PackageDescription>
