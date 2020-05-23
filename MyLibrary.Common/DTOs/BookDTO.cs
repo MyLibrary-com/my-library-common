@@ -13,7 +13,7 @@ namespace MyLibrary.Common.DTOs
         public string Subtitle { get; set; }
         public int? SeriesID { get; set; }
         public int? NumberInSeries { get; set; }
-        public string Edition { get; set; }
+        public int? Edition { get; set; }
         public int PublicationFormat { get; set; }
         public int FictionType { get; set; }
         public int FormType { get; set; }
