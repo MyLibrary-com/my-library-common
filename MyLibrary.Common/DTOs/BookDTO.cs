@@ -19,5 +19,7 @@ namespace MyLibrary.Common.DTOs
         public int FormType { get; set; }
         public int Publisher { get; set; }
         public byte[] CoverImage { get; set; }
+        public List<int> Genres { get; set; }
+        public List<int> Authors { get; set; }
     }
 }
