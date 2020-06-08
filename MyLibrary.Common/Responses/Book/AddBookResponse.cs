@@ -6,5 +6,6 @@ namespace MyLibrary.Common.Responses
 {
     public class AddBookResponse : BaseResponse
     {
+        public int BookID { get; set; }
     }
 }
