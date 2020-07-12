@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace MyLibrary.Common.Requests
+namespace MyLibrary.Common.Requests.Book
 {
-    public class AddBookRequest : BaseRequest
+    public class UpdateBookRequest : BaseRequest
     {
+        public int BookID { get; set; }
         public string ISBN { get; set; }
         public string eISBN { get; set; }
-        [Required (AllowEmptyStrings = false, ErrorMessage = "You must provide a title")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "You must provide a title")]
         public string Title { get; set; }
         public string Subtitle { get; set; }
         public int? SeriesID { get; set; }
@@ -23,7 +24,7 @@ namespace MyLibrary.Common.Requests
         public List<int> Genres { get; set; }
         public List<int> Authors { get; set; }
 
-        public AddBookRequest()
+        public UpdateBookRequest()
         {
             Genres = new List<int>();
             Authors = new List<int>();
